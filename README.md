@@ -6,10 +6,12 @@ This project includes an Entity Relationship Diagram (ERD) and SQL schema for a 
 
 ## What I’ve Done:
 - Designed tables: Doctors, Patients, Appointments, Medications, and Prescriptions
-- Created relationships between them
-- Written a SQL script to create the schema
-- Generated a visual ER diagram
+- Created relationships between them using Foreign key (its called refrences as well) to connect them
+- Generated a visual ER diagram using pgAdmine ER Tool
 
 ## How to Use
 - Run the SQL script in pgAdmin or PostgreSQL
 - View the ER diagram  as an image
+
+A patient can book appointment to the doctor according to their need and hospital managemnet sysytem can give medication and prescription to the patient.
+1st Task Completed
